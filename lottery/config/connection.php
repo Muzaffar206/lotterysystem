@@ -1,11 +1,11 @@
 <?php
 // Database credentials
-$servername = "localhost"; // Replace with your server name or IP address
-$username = "root";        // Replace with your database username
-$password = "";            // Replace with your database password
-$dbname = "lottery"; // Replace with your database name
+$servername = "localhost";
+$username = "root";       
+$password = "";            
+$dbname = "lottery";
 
-// Create connection
+//  Connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
 // Check connection

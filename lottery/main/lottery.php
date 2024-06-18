@@ -1,4 +1,11 @@
 <?php
+session_start();
+if (!isset($_SESSION["user"])) {
+    header ("Location: ../index.php");
+}
+?>
+
+<?php
 if (isset($_POST['upload'])) {
     $file = $_FILES['file']['tmp_name'];
     $scheme = $_POST['scheme'];

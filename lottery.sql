@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 18, 2024 at 08:39 PM
+-- Generation Time: Jun 18, 2024 at 08:57 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -40,10 +40,6 @@ CREATE TABLE `lottery_results` (
 --
 
 INSERT INTO `lottery_results` (`id`, `file_name`, `file_path`, `created_at`, `scheme`) VALUES
-(1, 'selected_beneficiaries_20240616_183908.csv', 'uploads/selected_beneficiaries_20240616_183908.csv', '2024-06-16 16:39:08', ''),
-(2, 'selected_beneficiaries_20240616_184122.csv', 'uploads/selected_beneficiaries_20240616_184122.csv', '2024-06-16 16:41:22', ''),
-(3, 'selected_beneficiaries_20240616_184310.csv', 'uploads/selected_beneficiaries_20240616_184310.csv', '2024-06-16 16:43:10', ''),
-(4, 'selected_beneficiaries_20240616_184344.csv', 'uploads/selected_beneficiaries_20240616_184344.csv', '2024-06-16 16:43:44', ''),
 (5, 'selected_beneficiaries_20240616_185654.csv', 'uploads/selected_beneficiaries_20240616_185654.csv', '2024-06-16 16:56:54', ''),
 (6, 'selected_beneficiaries_20240616_190112.csv', 'uploads/selected_beneficiaries_20240616_190112.csv', '2024-06-16 17:01:12', ''),
 (7, 'selected_beneficiaries_20240616_191525.csv', 'uploads/selected_beneficiaries_20240616_191525.csv', '2024-06-16 17:15:25', ''),

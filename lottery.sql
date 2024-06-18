@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 16, 2024 at 08:01 PM
+-- Generation Time: Jun 18, 2024 at 08:39 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -75,7 +75,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `password`, `email`, `created_at`, `reset_token`, `reset_token_expiry`) VALUES
 (10, 'muzaffar', '$2y$10$gJvhxIv/Ali9WZqf5p1wXe3Ni8lfbs3ThNQYof2TNEwFPCI/GnlCC', 'muzaffar@gmail.com', '2024-06-13 08:54:33', '8ea454f0b53f265cc26d62b3567cafe7', '2024-06-13 11:54:52'),
-(11, 'admin', '$2y$10$04ZVbkSr86qhOHanurct2uO4Vxn.9WlEuZq8.7DSqVgOgvsRnMupu', 'admin@gmail.com', '2024-06-16 10:45:59', NULL, NULL);
+(11, 'admin', '$2y$10$04ZVbkSr86qhOHanurct2uO4Vxn.9WlEuZq8.7DSqVgOgvsRnMupu', 'admin@gmail.com', '2024-06-16 10:45:59', NULL, NULL),
+(12, 'alfu', '$2y$10$MAerydL15xWGd7rFf5ol.eyaPgHssMjPv2zj.UgjbeSQzrGQADVJG', 'alfu@mail.com', '2024-06-17 12:14:44', NULL, NULL);
 
 --
 -- Indexes for dumped tables
@@ -109,7 +110,7 @@ ALTER TABLE `lottery_results`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
